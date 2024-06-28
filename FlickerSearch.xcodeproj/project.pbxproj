@@ -14,6 +14,18 @@
 		9E238D052C2E812700AF1CE5 /* FlickerSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E238D042C2E812700AF1CE5 /* FlickerSearchTests.swift */; };
 		9E238D0F2C2E812700AF1CE5 /* FlickerSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E238D0E2C2E812700AF1CE5 /* FlickerSearchUITests.swift */; };
 		9E238D112C2E812700AF1CE5 /* FlickerSearchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E238D102C2E812700AF1CE5 /* FlickerSearchUITestsLaunchTests.swift */; };
+		9E238D222C2E822E00AF1CE5 /* Requestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E238D1F2C2E822E00AF1CE5 /* Requestable.swift */; };
+		9E238D232C2E822E00AF1CE5 /* FlickerSearchEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E238D202C2E822E00AF1CE5 /* FlickerSearchEndpoints.swift */; };
+		9E430AC02C2F2EA4006A1C10 /* FlickerSeachedImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E430ABF2C2F2EA4006A1C10 /* FlickerSeachedImageModel.swift */; };
+		9E430AC32C2F305A006A1C10 /* FlickerSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E430AC22C2F305A006A1C10 /* FlickerSearchViewModel.swift */; };
+		9E430AC62C2F3987006A1C10 /* FlickerServiceRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E430AC52C2F3987006A1C10 /* FlickerServiceRequest.swift */; };
+		9E430AC92C2F4AA1006A1C10 /* FlickerSeachView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E430AC82C2F4AA1006A1C10 /* FlickerSeachView.swift */; };
+		9E430ACE2C2F6043006A1C10 /* FlickrDeatilsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E430ACD2C2F6043006A1C10 /* FlickrDeatilsView.swift */; };
+		9E430AD02C2F62A8006A1C10 /* FlickrDetailImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E430ACF2C2F62A8006A1C10 /* FlickrDetailImageViewModel.swift */; };
+		9E430AD72C2F6B40006A1C10 /* NetworkingManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E430AD52C2F6B40006A1C10 /* NetworkingManagerTests.swift */; };
+		9E430AD82C2F6B40006A1C10 /* RequestManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E430AD62C2F6B40006A1C10 /* RequestManagerTests.swift */; };
+		9E430ADA2C2F6C22006A1C10 /* RequestableManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E430AD92C2F6C22006A1C10 /* RequestableManager.swift */; };
+		9E430ADC2C2F6EA9006A1C10 /* FlickrSearchViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E430ADB2C2F6EA9006A1C10 /* FlickrSearchViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +56,18 @@
 		9E238D0A2C2E812700AF1CE5 /* FlickerSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlickerSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E238D0E2C2E812700AF1CE5 /* FlickerSearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerSearchUITests.swift; sourceTree = "<group>"; };
 		9E238D102C2E812700AF1CE5 /* FlickerSearchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerSearchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9E238D1F2C2E822E00AF1CE5 /* Requestable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Requestable.swift; path = "../../../../20240617-RanjithVanaparthi-NYCiOSApp/20240617-RanjithVanaparthi-NYCSchools/NetworkService/Requestable.swift"; sourceTree = "<group>"; };
+		9E238D202C2E822E00AF1CE5 /* FlickerSearchEndpoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlickerSearchEndpoints.swift; path = "../../../../20240617-RanjithVanaparthi-NYCiOSApp/20240617-RanjithVanaparthi-NYCSchools/NetworkService/FlickerSearchEndpoints.swift"; sourceTree = "<group>"; };
+		9E430ABF2C2F2EA4006A1C10 /* FlickerSeachedImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerSeachedImageModel.swift; sourceTree = "<group>"; };
+		9E430AC22C2F305A006A1C10 /* FlickerSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerSearchViewModel.swift; sourceTree = "<group>"; };
+		9E430AC52C2F3987006A1C10 /* FlickerServiceRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerServiceRequest.swift; sourceTree = "<group>"; };
+		9E430AC82C2F4AA1006A1C10 /* FlickerSeachView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickerSeachView.swift; sourceTree = "<group>"; };
+		9E430ACD2C2F6043006A1C10 /* FlickrDeatilsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrDeatilsView.swift; sourceTree = "<group>"; };
+		9E430ACF2C2F62A8006A1C10 /* FlickrDetailImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrDetailImageViewModel.swift; sourceTree = "<group>"; };
+		9E430AD52C2F6B40006A1C10 /* NetworkingManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkingManagerTests.swift; path = "../../../20240617-RanjithVanaparthi-NYCiOSApp/20240617-RanjithVanaparthi-NYCSchoolsTests/NetworkingManagerTests.swift"; sourceTree = "<group>"; };
+		9E430AD62C2F6B40006A1C10 /* RequestManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RequestManagerTests.swift; path = "../../../20240617-RanjithVanaparthi-NYCiOSApp/20240617-RanjithVanaparthi-NYCSchoolsTests/RequestManagerTests.swift"; sourceTree = "<group>"; };
+		9E430AD92C2F6C22006A1C10 /* RequestableManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RequestableManager.swift; path = "../../../../20240617-RanjithVanaparthi-NYCiOSApp/20240617-RanjithVanaparthi-NYCSchools/NetworkService/RequestableManager.swift"; sourceTree = "<group>"; };
+		9E430ADB2C2F6EA9006A1C10 /* FlickrSearchViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrSearchViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +118,8 @@
 		9E238CF22C2E812300AF1CE5 /* FlickerSearch */ = {
 			isa = PBXGroup;
 			children = (
+				9E430ABC2C2F2E50006A1C10 /* Features */,
+				9E238D1D2C2E815600AF1CE5 /* Network */,
 				9E238CF32C2E812300AF1CE5 /* FlickerSearchApp.swift */,
 				9E238CF52C2E812300AF1CE5 /* ContentView.swift */,
 				9E238CF72C2E812600AF1CE5 /* Assets.xcassets */,
@@ -113,7 +139,10 @@
 		9E238D032C2E812700AF1CE5 /* FlickerSearchTests */ = {
 			isa = PBXGroup;
 			children = (
+				9E430AD52C2F6B40006A1C10 /* NetworkingManagerTests.swift */,
+				9E430AD62C2F6B40006A1C10 /* RequestManagerTests.swift */,
 				9E238D042C2E812700AF1CE5 /* FlickerSearchTests.swift */,
+				9E430ADB2C2F6EA9006A1C10 /* FlickrSearchViewModelTests.swift */,
 			);
 			path = FlickerSearchTests;
 			sourceTree = "<group>";
@@ -125,6 +154,93 @@
 				9E238D102C2E812700AF1CE5 /* FlickerSearchUITestsLaunchTests.swift */,
 			);
 			path = FlickerSearchUITests;
+			sourceTree = "<group>";
+		};
+		9E238D1D2C2E815600AF1CE5 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				9E238D202C2E822E00AF1CE5 /* FlickerSearchEndpoints.swift */,
+				9E238D1F2C2E822E00AF1CE5 /* Requestable.swift */,
+				9E430AD92C2F6C22006A1C10 /* RequestableManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		9E430ABC2C2F2E50006A1C10 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				9E430ACA2C2F5FE6006A1C10 /* FlickrDetailsSearchImage */,
+				9E430ABD2C2F2E65006A1C10 /* FlickerSearchImage */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		9E430ABD2C2F2E65006A1C10 /* FlickerSearchImage */ = {
+			isa = PBXGroup;
+			children = (
+				9E430AC72C2F4A8E006A1C10 /* View */,
+				9E430AC42C2F393E006A1C10 /* Service */,
+				9E430AC12C2F3040006A1C10 /* ViewModel */,
+				9E430ABE2C2F2E87006A1C10 /* Model */,
+			);
+			path = FlickerSearchImage;
+			sourceTree = "<group>";
+		};
+		9E430ABE2C2F2E87006A1C10 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9E430ABF2C2F2EA4006A1C10 /* FlickerSeachedImageModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9E430AC12C2F3040006A1C10 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9E430AC22C2F305A006A1C10 /* FlickerSearchViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9E430AC42C2F393E006A1C10 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				9E430AC52C2F3987006A1C10 /* FlickerServiceRequest.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		9E430AC72C2F4A8E006A1C10 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9E430AC82C2F4AA1006A1C10 /* FlickerSeachView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9E430ACA2C2F5FE6006A1C10 /* FlickrDetailsSearchImage */ = {
+			isa = PBXGroup;
+			children = (
+				9E430ACC2C2F6024006A1C10 /* ViewModel */,
+				9E430ACB2C2F601D006A1C10 /* View */,
+			);
+			path = FlickrDetailsSearchImage;
+			sourceTree = "<group>";
+		};
+		9E430ACB2C2F601D006A1C10 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9E430ACD2C2F6043006A1C10 /* FlickrDeatilsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9E430ACC2C2F6024006A1C10 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9E430ACF2C2F62A8006A1C10 /* FlickrDetailImageViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +373,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E430AC62C2F3987006A1C10 /* FlickerServiceRequest.swift in Sources */,
+				9E430AC32C2F305A006A1C10 /* FlickerSearchViewModel.swift in Sources */,
+				9E430ACE2C2F6043006A1C10 /* FlickrDeatilsView.swift in Sources */,
+				9E238D232C2E822E00AF1CE5 /* FlickerSearchEndpoints.swift in Sources */,
+				9E430AC92C2F4AA1006A1C10 /* FlickerSeachView.swift in Sources */,
 				9E238CF62C2E812300AF1CE5 /* ContentView.swift in Sources */,
+				9E430AC02C2F2EA4006A1C10 /* FlickerSeachedImageModel.swift in Sources */,
+				9E238D222C2E822E00AF1CE5 /* Requestable.swift in Sources */,
 				9E238CF42C2E812300AF1CE5 /* FlickerSearchApp.swift in Sources */,
+				9E430AD02C2F62A8006A1C10 /* FlickrDetailImageViewModel.swift in Sources */,
+				9E430ADA2C2F6C22006A1C10 /* RequestableManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +392,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E238D052C2E812700AF1CE5 /* FlickerSearchTests.swift in Sources */,
+				9E430AD72C2F6B40006A1C10 /* NetworkingManagerTests.swift in Sources */,
+				9E430ADC2C2F6EA9006A1C10 /* FlickrSearchViewModelTests.swift in Sources */,
+				9E430AD82C2F6B40006A1C10 /* RequestManagerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

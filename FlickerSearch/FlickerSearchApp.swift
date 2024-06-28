@@ -11,7 +11,7 @@ import SwiftUI
 struct FlickerSearchApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SearchView()
         }
     }
 }
